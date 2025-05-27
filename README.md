@@ -101,7 +101,7 @@ WaN I2V    → (WIP) 360° Rotating Try-On Video
 
 <table>
   <tr>
-    <td align="center"><strong>🔬 My Method (Florence2 + SAM2 + IDM-VTON)</strong></td>
+    <td align="center"><strong>🔬 Our Method (Florence2 + SAM2 + IDM-VTON)</strong></td>
     <td align="center"><strong>📦 IDM-VTON</strong></td>
   </tr>
   <tr>
@@ -112,7 +112,7 @@ WaN I2V    → (WIP) 360° Rotating Try-On Video
 
 
 ✅ **Observation**:  
-> My pipeline, integrating **vision-language reasoning and precise segmentation**, produced a **sharper, more accurate, and realistic result** compared to the default IDM-VTON output.  
+> Our pipeline, integrating **vision-language reasoning and precise segmentation**, produced a **sharper, more accurate, and realistic result** compared to the default IDM-VTON output.  
 > The mask quality and garment alignment were visibly superior, especially around sleeve boundaries and contour preservation.
 
 
