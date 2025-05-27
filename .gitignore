@@ -29,14 +29,14 @@ env.bak/
 *.npz
 
 # Output videos/images
-*.mp4
-*.avi
-*.mov
-*.gif
-*.webm
-*.jpg
-*.jpeg
-*.png
+#*.mp4
+#*.avi
+#*.mov
+#*.gif
+#*.webm
+#*.jpg
+#*.jpeg
+#*.png
 outputs/
 videos/
 results/

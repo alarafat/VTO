@@ -90,8 +90,8 @@ WaN I2V    → (WIP) 360° Rotating Try-On Video
     <td align="center"><strong>Garment Image</strong></td>
   </tr>
   <tr>
-    <td><img src="outputs/person_image.png" width="250"/></td>
-    <td><img src="outputs/garment_image.png" width="250"/></td>
+    <td><img src="git_images/person_image.png" width="250"/></td>
+    <td><img src="git_images/garment_image.png" width="250"/></td>
   </tr>
 </table>
 
@@ -105,8 +105,8 @@ WaN I2V    → (WIP) 360° Rotating Try-On Video
     <td align="center"><strong>📦 IDM-VTON</strong></td>
   </tr>
   <tr>
-    <td><img src="outputs/my_result.png" width="450"/></td>
-    <td><img src="outputs/idm_vton_result.png" width="450"/></td>
+    <td><img src="git_images/my_result.png" width="450"/></td>
+    <td><img src="git_images/idm_vton_result.png" width="450"/></td>
   </tr>
 </table>
 
