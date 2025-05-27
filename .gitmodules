@@ -1,6 +1,6 @@
 [submodule "dependencies/IDM-VTON"]
 	path = dependencies/IDM-VTON
-	url = https://github.com/yisol/IDM-VTON.git
+	url = git@github.com:alarafat/IDM-VTON.git
 [submodule "dependencies/sam2"]
 	path = dependencies/sam2
-	url = https://github.com/facebookresearch/sam2.git
+	url = git@github.com:alarafat/sam2.git
