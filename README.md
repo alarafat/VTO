@@ -18,19 +18,53 @@ This project implements a modular, intelligent **virtual try-on** system using s
 
 ## 🛠️ Installation & Setup
 
+Follow the steps below to set up and run the Virtual Try-On (VTO) demo locally:
+
+### 1. Clone the Repository
+
 ```bash
-# Clone the repo
-git clone https://github.com/alarafat/vto.git
-cd vto
+git clone git@github.com:alarafat/Virtual-Try-On.git
+cd Virtual-Try-On
+```
 
-# Create and activate environment
-conda create -n vto python=3.10 -y
+### 2. Create and Activate Conda Environment
+
+Create the `vto` environment using the provided `environment.yml` file:
+
+```bash
+conda env create -f environment.yml
 conda activate vto
+```
 
-# Install dependencies
-pip install -r requirements.txt
+### 3. Install SAM2 Dependency
+
+Navigate to the SAM2 dependency directory and install it:
+
+```bash
+cd dependencies/sam2
+pip install -e .
+```
+
+### 4. Run the Streamlit Demo
+
+Navigate to the IDM-VTON directory and start the demo:
+
+```bash
+cd ../IDM-VTON
+streamlit run gradio_demo/demo.py
+```
+
+### 5. Access the Demo
+
+Once running, open your browser and go to:
 
 ```
+http://localhost:8501
+```
+
+You should now see the Virtual Try-On interface.
+
+---
 
 > **⚠️ Note:**
 > This codebase has been updated for compatibility with `transformers >= 4.51.3`.
@@ -41,7 +75,9 @@ pip install -r requirements.txt
 > pip install transformers==4.51.3
 > ```
 
-> Also, download required model checkpoints for SAM2, Florence2, IDM-VTON, and Wan2.1. Place them under their respective directories in `dependencies/`.
+> Also, download required model checkpoints for SAM2, IDM-VTON, and Wan2.1. Place them under their respective directories in `dependencies/`. For issues or troubleshooting, please refer to the documentation or raise an issue in the repository.
+
+
 
 ---
 
