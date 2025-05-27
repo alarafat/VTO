@@ -549,7 +549,6 @@ def main():
         st.info(
             "🚀 **Coming Soon:**\n"
             "- Webcam integration\n"
-            "- Qwen-powered garment description\n"
             "- Real-time try-on preview\n"
             "- Multiple garment categories"
         )

@@ -83,18 +83,44 @@ WaN I2V    → (WIP) 360° Rotating Try-On Video
 
 ## 📊 Results
 
-| Input Person                 | Input Garment                | Try-On Output                |
-| ---------------------------- | ---------------------------- | ---------------------------- |
-| ![person](assets/person.jpg) | ![garment](assets/cloth.jpg) | ![output](assets/output.jpg) |
-
+### 🔍 Input
+<table>
+  <tr>
+    <td align="center"><strong>Person Image</strong></td>
+    <td align="center"><strong>Garment Image</strong></td>
+  </tr>
+  <tr>
+    <td><img src="outputs/person_image.png" width="250"/></td>
+    <td><img src="outputs/garment_image.png" width="250"/></td>
+  </tr>
+</table>
 
 ---
 
+### 🎯 Virtual Try-On Results
+
+<table>
+  <tr>
+    <td align="center"><strong>🔬 My Method (Florence2 + SAM2 + IDM-VTON)</strong></td>
+    <td align="center"><strong>📦 IDM-VTON</strong></td>
+  </tr>
+  <tr>
+    <td><img src="outputs/my_result.png" width="450"/></td>
+    <td><img src="outputs/idm_vton_result.png" width="450"/></td>
+  </tr>
+</table>
+
+
+✅ **Observation**:  
+> My pipeline, integrating **vision-language reasoning and precise segmentation**, produced a **sharper, more accurate, and realistic result** compared to the default IDM-VTON output.  
+> The mask quality and garment alignment were visibly superior, especially around sleeve boundaries and contour preservation.
+
+
 ## 🔮 Outlook
+This prototype already shows **notable quality improvements** over the baseline IDM-VTON, particularly in segmentation precision and output realism. Going forward, I aim to
+combine several advanced AI techniques to deliver a next-generation virtual try-on experience. Future enhancements include:
 
-This project combines several advanced AI techniques to deliver a next-generation virtual try-on experience. Future enhancements include:
-
-* 🎮️ **360° Walk-Around View:** Ongoing integration of WaN I2V to produce dynamic turntable videos
+* 🎮️ **360° Walk-Around View:** Ongoing integration of Wan2.1 I2V to produce dynamic turntable videos
 * 🧠 **Full Auto Mode:** Auto cloth detection + prompt generation with Qwen2.5
 * 💡 **Multi-Garment Try-On:** Support for layering (tops + bottoms + accessories)
 * 📸 **Real-Time Webcam Mode**
