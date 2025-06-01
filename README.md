@@ -1,4 +1,4 @@
-# 👕 Virtual Try-On Pipeline (IDM-VTON + Qwen2.5 + SAM2 + Florence2 + Wan2.1)
+# 👕 Virtual Try-On Pipeline
 
 This project implements a modular, intelligent **virtual try-on** system using segmentation-guided generative modeling and modern vision-language reasoning. It allows users to upload a garment and a photo of a person, and generates a realistic image of the person wearing the garment. A 360° walk-around video of the try-on result is also under integration.
 
@@ -11,7 +11,7 @@ This project implements a modular, intelligent **virtual try-on** system using s
 * 📦 Region detection with **Florence-2**
 * ✂️ Fine-grained mask generation with **SAM2**
 * 🎨 Virtual try-on using **IDM-VTON**
-* 🎮️ (WIP) Generate 360° turntable-style try-on video using **Wan2.1 I2V**
+* 🎮️ (WIP) Generate a try-on video from the inpainted image using **Wan2.1 I2V**
 * 🖥️ User-friendly interface via **Streamlit**
 
 ---
@@ -94,7 +94,7 @@ SAM2       → Segmentation Mask
      ▼
 IDM-VTON   → Try-On Image
      ▼
-WaN I2V    → (WIP) 360° Rotating Try-On Video
+WaN I2V    → (WIP) Generate a try-on video from the inpainted image
 ```
 
 ---
@@ -113,7 +113,7 @@ WaN I2V    → (WIP) 360° Rotating Try-On Video
    * Mask
    * Prompt (garment description came out of Qwen2.5)
      And synthesizes a realistic try-on image.
-6. *(WIP)* **WaN I2V** generates a 360° rotating video from the try-on image.
+6. *(WIP)* **WaN I2V** Generate a try-on video from the inpainted image.
 7. *(WIP)* **SDXL** to generate synthetic person images to try the dress on. 
 ---
 
@@ -156,7 +156,7 @@ WaN I2V    → (WIP) 360° Rotating Try-On Video
 This prototype already shows **notable quality improvements** over the baseline IDM-VTON, particularly in segmentation precision and output realism. Going forward, I aim to
 combine several advanced AI techniques to deliver a next-generation virtual try-on experience. Future enhancements include:
 
-* 🎮️ **360° Walk-Around View:** Ongoing integration of Wan2.1 I2V to produce dynamic turntable videos
+* 🎮️ **Walk-Around View:** Ongoing integration of Wan2.1 I2V to produce dynamic turntable videos
 * 🧠 **Full Auto Mode:** Auto cloth detection + prompt generation with Qwen2.5
 * 💡 **Multi-Garment Try-On:** Support for layering (tops + bottoms + accessories)
 * 📸 **Real-Time Webcam Mode**
