@@ -1,6 +1,6 @@
 # 👕 Virtual Try-On Pipeline
 
-This project implements a modular, intelligent **virtual try-on** system using segmentation-guided generative modeling and modern vision-language reasoning. It allows users to upload a garment and a photo of a person, and generates a realistic image of the person wearing the garment. A 360° walk-around video of the try-on result is also under integration.
+This project implements a modular, intelligent **virtual try-on** system using segmentation-guided generative modeling and modern vision-language reasoning. It allows users to upload a garment and a photo of a person, and generates a realistic image of the person wearing the garment. A walk-around video of the try-on result is also under integration.
 
 ---
 
